@@ -1,0 +1,23 @@
+This package contains all libraries needed to build an almost complete complete version of GPAC.
+To find out more about non included libraries in this package, please refer to GPAC install documentation.
+
+***NOTE: You might have to create the destination folder first***
+
+1. For Windows Users: Depends on the platforms (win32 or x64)
+	- Copy include/SDL to [gpac_folder]/extra_lib/include
+	- Copy libraries from lib/[PLATFORM] to [gpac_folder]/extra_lib/lib/[PLATFORM]
+	- Copy DLLs from bin/[PLATFORM] to [gpac_folder]/bin/[PLATFORM]
+	
+2. For GCC Users: Depends on the architecture (x86 or x64)
+	- Copy libraries from lib/[ARCH] to [gpac_folder]/extra_lib/lib/gcc
+	
+3. For iOS Users: 
+	- Copy libraries from lib/ios to [gpac_folder]/extra_lib/lib/iOS
+
+4. For MacOS Users:
+	- Copy libraries from lib/macos to [gpac_folder]/extra_lib/lib/gcc
+
+5. For Android Users:
+	- Copy libraries from lib/android to [gpac_folder]/extra_lib/lib/android
+	- Copy lib/android/real3d.jar to [gpac_folder]/applications/osmo4_android/libs
+	
