@@ -3,10 +3,10 @@ To find out more about non included libraries in this package, please refer to G
 
 ***NOTE: You might have to create the destination folder first***
 
-1. For Windows Users: Depends on the platforms (win32 or x64)
+1. For Windows Users: Depends on the platforms (win32 or x64) and Visual Studio version (VS2010 or VS2015)
 	- Copy include/SDL to [gpac_folder]/extra_lib/include
-	- Copy libraries from lib/[PLATFORM] to [gpac_folder]/extra_lib/lib/[PLATFORM]
-	- Copy DLLs from bin/[PLATFORM] to [gpac_folder]/bin/[PLATFORM]
+	- Copy libraries from lib/[VS_VERSION]/[PLATFORM] to [gpac_folder]/extra_lib/lib/[PLATFORM]
+	- Copy DLLs from bin/[VS_VERSION]/[PLATFORM] to [gpac_folder]/bin/[PLATFORM]
 	
 2. For GCC Users: Depends on the architecture (x86 or x64)
 	- Copy libraries from lib/[ARCH] to [gpac_folder]/extra_lib/lib/gcc
